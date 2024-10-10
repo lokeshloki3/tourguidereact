@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tourguidereact/static/css/main.d48c51e6.css",
-    "main.js": "/tourguidereact/static/js/main.7ad2d164.js",
+    "main.css": "/tourguidereact/static/css/main.d2a218c5.css",
+    "main.js": "/tourguidereact/static/js/main.f5362b0f.js",
     "index.html": "/tourguidereact/index.html",
-    "main.d48c51e6.css.map": "/tourguidereact/static/css/main.d48c51e6.css.map",
-    "main.7ad2d164.js.map": "/tourguidereact/static/js/main.7ad2d164.js.map"
+    "main.d2a218c5.css.map": "/tourguidereact/static/css/main.d2a218c5.css.map",
+    "main.f5362b0f.js.map": "/tourguidereact/static/js/main.f5362b0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d48c51e6.css",
-    "static/js/main.7ad2d164.js"
+    "static/css/main.d2a218c5.css",
+    "static/js/main.f5362b0f.js"
   ]
 }
