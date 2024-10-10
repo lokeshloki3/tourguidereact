@@ -2,11 +2,9 @@ Demo - https://lokeshloki3.github.io/tourguidereact/
 
 Steps- 
 
-	npx create-react-app react-tailwind
-	cd react-tailwind
-
- npm run start
-
+	npm install
+	npm run start
+ 
 	npm install gh-pages --save-dev
 	
 	Add in package.json above name
