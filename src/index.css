@@ -1,10 +1,10 @@
-*{
+/* *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* as not made wrapper */
+as not made wrapper
 body{
   min-height: 100vh;
 }
@@ -19,7 +19,7 @@ body{
 .cards{
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   flex-wrap: wrap;
   max-width: 1300px;
 }
@@ -43,4 +43,123 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: lightpink;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.title{
+    font-size: 2rem;
+    margin:3vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:1vh 5vw;
+}
+
+
+.cards{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    margin:0 auto;
+}
+
+.card{
+    width:300px;
+    height:max-content;
+    margin:1rem;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(168, 36, 36, 0.24) 0px 3px 8px;
+}
+
+.image{
+    width:280px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tour-info{
+    margin:5px 5px;
+}
+
+.tour-price{
+    color:#1faa59;
+    font-size:1.2rem;
+}
+
+.tour-name{
+    font-size:1.2rem;
+}
+
+.read-more{
+    color:#12b0e8;
+    cursor: pointer;
+}
+
+.btn-red{
+    margin-top:4px;
+    padding: 10px 80px;
+    border: 1px solid #141d9c;
+    cursor: pointer;
+    border-radius:10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #850b6a21;
+}
+
+.btn-red:hover{
+    background-color: rgb(184, 38, 153);
+    color:white;
+    transition: all 0.2s;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-refresh{
+    margin-top:18px;
+    padding:10px 80px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.btn-refresh:hover{
+    background-color: antiquewhite;
+    color: black;
+    transition: all 0.2s;
+}
+
+.description{
+  font-size: 14px;
 }

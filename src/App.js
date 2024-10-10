@@ -16,7 +16,7 @@ function App() {
     return (
       <div className='refresh'>
         <h2>No Tour Found</h2>
-        <button onClick={()=>setTours(data)}>Refresh</button>
+        <button className="btn-refresh" onClick={()=>setTours(data)}>Refresh</button>
       </div>
     )
   }
